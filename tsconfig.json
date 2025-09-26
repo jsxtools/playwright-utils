@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"composite": true,
+		"declaration": true,
+		"incremental": true,
+		"isolatedModules": true,
+		"lib": [
+			"ES2024",
+			"ESNext.Array",
+			"ESNext.Collection",
+			"ESNext.Iterator",
+			"ES2024.Object",
+			"ES2024.Promise",
+			"DOM",
+			"DOM.AsyncIterable",
+			"DOM.Iterable"
+		],
+		"module": "nodenext",
+		"moduleResolution": "nodenext",
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"strict": true,
+		"target": "es2024",
+		"verbatimModuleSyntax": true
+	}
+}
